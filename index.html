@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        
+    <input type="file" id="imageInput" accept="image/*">
+
+
+  <br><br>
+
+  <button class="cta" onclick="encodeImage()"> 
+    <span>Encryption</span>
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+
+  <button class="cta" onclick="decodeImage()">
+    <span>Uecryption</span>
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+  <br><br>
+  <img id="encodedImage" src=""  class="a1">
+  <br>
+  <img id="decodedImage" src=""  class="a1"> 
+    </center> 
+    <img id="encodedImage" src="encoded_image.jpg">
+  
+  
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+</body>
+</html>
